@@ -1,0 +1,15 @@
+<h1>VirtualBox</h1>
+
+<h2>VirtualBox Headless</h2>
+
+<p>Using virtualbox machines headless. Useful when you run your 
+images on a remote server or even a localserver without graphical UI.</p>
+
+<p><code>shell
+VBoxManage list vms 
+VBoxHeadless -s servername 
+VBoxManage startvm servername --type headless
+</code></p>
+
+<p>These days I mostly use docker or k8s but for some stuff ( low level or 
+to test linux distributions ) I prefer the old style vms ;)</p>
