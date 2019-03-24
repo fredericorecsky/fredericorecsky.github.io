@@ -1,0 +1,38 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+use File::Find;
+use Text::Markdown 'markdown';
+
+if ( ! -e "index.md" ) {
+    die "You need to run from the root of the content, with a index.md file on it\n";
+}
+
+my @files_list = ();
+
+find( \&wanted, "." );
+
+for my $page ( @files_list ) {
+    my $pagename = $page;
+    $pagename =~ s/\.md$//;
+    print "Generating page for $page\n";
+    # try tiny
+    local $/;
+    open my $fh, "<", $page;
+    my $slurped = <$fh>;
+    close $fh;
+    my $html = markdown( $slurped );
+    open my $o_fh, ">", $pagename . ".html";
+    print $o_fh $html;
+    close $o_fh;
+}
+
+
+sub wanted {
+    if ( $_ =~ /\.md$/ ) {
+        push @files_list, $File::Find::name;
+    }
+}
