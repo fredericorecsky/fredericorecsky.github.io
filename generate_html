@@ -4,6 +4,7 @@ use strict;
 use warnings;
 
 use Data::Dumper;
+use File::Basename;
 use File::Find;
 use Text::Markdown 'markdown';
 
@@ -17,7 +18,7 @@ my @links_list = ();
 find( \&wanted, "." );
 
 for my $page ( @files_list ) {
-    next if $page eq "index.md";
+    next if  ( basename( $page ) eq "index.md" );
     my $pagename = $page;
     $pagename =~ s/\.md$//;
     push @links_list, [ $pagename, "$pagename.html" ];
