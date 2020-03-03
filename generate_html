@@ -38,6 +38,7 @@ for my $page ( @files_list ) {
 # index
 my $index_link_list = "### List of notes\n";
 for my $link ( @links_list ) {
+    $link->[0] =~ s/\.\///;
     $index_link_list .= "* [$link->[0]]( $link->[1] )\n";
 }
 
