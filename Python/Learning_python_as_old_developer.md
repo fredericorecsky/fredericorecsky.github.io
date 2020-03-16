@@ -1,6 +1,6 @@
 # Old dogs can learn new tricks
 
-Learning python from a old Perl and C developer.
+Learning python experience from a old Perl and C developer. 
 
 ## The first wall
 
@@ -18,8 +18,9 @@ prefer brackes to define blocks.
 ## The second wall
 
 The natural second wall is that coming specially from Perl, the feeling is like loosing freedom. 
-What I noticed at the sametime I broke the first wall, is that the things are now that tight. Python 
-has a lot of TMTOWTDI, but is just not endersed. The end result is that I use the preferred way 95% of the time and still have the "freedom" to do they way I like or think is better when required.
+What I noticed at the sametime I broke the first wall, is that the things are not that tight. Python 
+has a lot of TMTOWTDI, but is just not endersed. The end result is that I use the preferred way 95% 
+of the time and still have the "freedom" to do they way I like or think is better when required.
 
 ## Third wall
 
@@ -47,7 +48,7 @@ comment more than that for now because is just my personal opinion.
 
 ## What is nice
 
-Until now, two thinks keep me going on. The sense of freashness and support and the thread support :)
+Until now, two thinks keep me going on. The sense of freashness and support and the threads support :)
 I found on my own black magic that the mixture of threads and fork that I can do easily on Python is 
-everything I wanted. This is subject to other text to be written.
+everything I always wanted. This is subject to other text to be written.
 
