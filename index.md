@@ -1,4 +1,4 @@
-# Notes on technology
+# My notes on technology
 
 I am using this space to save my notes about tech stuff, mostly it is my notebook about software. 
 
@@ -6,8 +6,15 @@ From time to time I tried to upkeep a blog in the end I fallback to small text f
 
 Above there is a list of notes, usually the name is self describing. You can always [git clone this](https://github.com/fredericorecsky/fredericorecsky.github.io.git) and git grep the contents.
 
-### About me
+### About me:
 
-You can find more about me on [my personal blog](https://frederico.me) , my [resume](/resume.html)
+You can find more about me on [my personal blog](https://frederico.me) , my [resume](resume.html)
+
+### List of notes:
+
+Here is the list of my notes, more or less by topic:
+
+
+
 
 

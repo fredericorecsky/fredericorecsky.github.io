@@ -1,4 +1,6 @@
-# Frederico Recsky Developer
+# Frederico Recsky 
+
+## Software Developer
 
 Noord-Holland Province, Netherlands
 
@@ -58,11 +60,12 @@ June 2012 - August 2015 (3 years 3 months) Taubaté Area, Brazil
 
 October 2011 - September 2014 (3 years)
 
-• Creating data consuming apps using RabbitMQ • Web Applications using Catalyst Framework;
-• Amazon s3/Dreamhost Objects;
-• Windows Phone applications;
-• Windows Desktop Applications • Crawlers and Data Mining
-• Mysql Replication
+* Creating data consuming apps using RabbitMQ • Web Applications using Catalyst Framework;
+* Amazon s3/Dreamhost Objects;
+* Windows Phone applications;
+* Windows Desktop Applications 
+* Crawlers and Data Mining
+* Mysql Replication
 
 
 ### Booking.com
@@ -74,7 +77,7 @@ December 2009 - March 2012 (2 years 4 months) Amsterdam Area, Netherlands
 * Worked with server backend development, A/B test tools, search engine for hotels, data extraction and analysis for price parity and availability of rooms.
 Page 2 of 3
 * Using perl and mysql, developed modules and tools used to generate the search results of the website. Also worked with data extraction and analysis in the A/B test tool of the website.
-* Worked creating software to analyse data about price parity of hotels, generating reports used by the account managers.
+* Worked creating software to analyse data about  price parity of hotels, generating reports used by the account managers.
 
 ### IBM
 

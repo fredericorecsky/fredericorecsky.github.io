@@ -8,6 +8,7 @@ use Data::Dumper;
 use File::Basename;
 use File::Find;
 use Text::Markdown 'markdown';
+use Template;
 
 if ( ! -e "index.md" ) {
     die "You need to run from the root of the content, with a index.md file on it\n";
@@ -49,6 +50,7 @@ $index .= $index_link_list;
 my $html = markdown( $index );
 open my $o_fh, ">", "index.html";
 print $o_fh $html;
+print $o_fh "</article>";
 close $o_fh;
 
 sub wanted {
@@ -56,3 +58,6 @@ sub wanted {
         push @files_list, $File::Find::name;
     }
 }
+
+__DATA__
+
