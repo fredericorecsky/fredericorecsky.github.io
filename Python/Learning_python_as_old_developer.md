@@ -52,3 +52,6 @@ Until now, two thinks keep me going on. The sense of freashness and support and 
 I found on my own black magic that the mixture of threads and fork that I can do easily on Python is 
 everything I always wanted. This is subject to other text to be written.
 
+## Python cheatsheet
+
+[This one is a cool one](https://github.com/gto76/python-cheatsheet)
