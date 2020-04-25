@@ -1,6 +1,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/github.markdown.css">
+<link rel="stylesheet" href="https://fredericorecsky.github.io/github.markdown.css">
 <style>
 	.markdown-body {
 		box-sizing: border-box;
@@ -19,4 +19,11 @@
 
 <article class="markdown-body">
 <h1>Docker</h1>
+<h2>Docker Cheat Sheet</h2>
+<h3>List all containers</h3>
+<p><code>docker container ls -a</code></p>
+<h3>Stop all containers</h3>
+<p><code>docker container stop $(docker container ls -aq)</code></p>
+<h3>Remove all stopped containers</h3>
+<p><code>docker container prune</code> </p>
 </article>

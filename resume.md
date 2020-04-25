@@ -1,26 +1,26 @@
 # Frederico Recsky 
 
-## Software Developer
+Noord-Holland Province, Netherlands 
 
-Noord-Holland Province, Netherlands
+email: c @ frederico.me
 
-## Summary
+### Software developer specialist on large websites and data processing systems 
 
-*  Software development using diverse tools and languages especially Go, Python, Perl and C#
-*  Backend software for services and SOA
-*  Google Ads API
+## Topics: 
+
+Docker, Python Development, Perl Development, Linux Specialist, Web Specialist, Server Backend Software, Google Cloud, Site Reliability Engineering
+
+### Technologies:
+
+*  Software development using diverse tools and languages especially Python, Go, Perl
+*  Ads Api for Google, Apple
 *  Google Cloud infrastructure
 *  Design of APIs for webservices
-*  Deployment on both local premises as well on public cloud infrastructure
+*  Development, Deployment and Tests pipelines with gitlab and travisCI
+*  Developer experience cycle, scm, builds, CI/CD pipelines
 *  Data Extraction, transformation and analysis.
 *  Development of Linux core utils tools and batch automation
-*  Linux system administration, task automation and software packaging. Worked with Red Hat, Suse and Debian automating the installer tasks and creating package with drivers and tools.
-*  Experience with MySQL databases and Redis data store.
-*  CI/CD pipelines
- 
-### Specialties: 
-
-Docker, Perl Development, Linux Specialist, Web Specialist, Server Backend Software, Google Cloud, Site Reliability Engineering
+*  MySQL databases and Redis data store.
 
 ## Experience
 
@@ -30,26 +30,38 @@ Docker, Perl Development, Linux Specialist, Web Specialist, Server Backend Softw
 
 August 2015 - Present,  Amsterdam Area, Netherlands
 
-##### PPC team ( pay per click /ads )
+##### PPC team ( pay per click /ads team )
 
+* Integration and Data Processing from PPC ads
+    - Google Ads
+    - Apple Ads
 * Integration of on premise system with google cloud infrastructure
-* Infrastructure of the software and tools used with ppc/ads bidding.
+* Infrastructure of the software and tools used with ppc/ads bidding systems
 * Tools for managing marketing campaigns on google using Google Ads API
 * Migrated the update process of ads to a distributed system using Redis and Perl
 
-##### SEO Team
+##### Core Infrastructure Team
 
-* SEO tooling and infrastructure. Designed and implemented performance and analysis tools that works on the scale required by booking.com.
-* Internal crawler development, improved the internal crawler used to get information about the booking.com site. Managed to run it and aggregate the SEO metrics for the entire set of links of the website instead just an slice of it.
+* Planning and implementation of a Service Directory for the new SOA architecture
+* Developer cycle and experience for migration or when creating a new service
+* Helped on the development of the internal web services framework
 
+##### SEO Team 
+
+* Internal SEO tools and infrastructure designed on the scale required by booking.com
+* Internal crawler development, improved the internal crawler used to get information about the booking.com site. 
+* Managed to run it and aggregate the SEO metrics for the entire set of links of the website instead just a sample of it.
 
 ### IDEMIA
 
 #### Software Specialist
 
+##### Product Engineering Team
+
 June 2012 - August 2015 (3 years 3 months) Taubaté Area, Brazil
 
-* Development of an application for tracking and audit of production items. • MySQL Database cluster management and application development
+* Development of an application for tracking and audit of production items. 
+* MySQL Database cluster management and application development
 * ASP.net / C# soap webservices and integration with 3rd parties
 * Redhat/CentOS System administration
 * Development of biometric enabled applications using C# and the morpho biometric devices
@@ -60,7 +72,8 @@ June 2012 - August 2015 (3 years 3 months) Taubaté Area, Brazil
 
 October 2011 - September 2014 (3 years)
 
-* Creating data consuming apps using RabbitMQ • Web Applications using Catalyst Framework;
+* Creating data consuming apps using RabbitMQ 
+* Web Applications using Catalyst Framework;
 * Amazon s3/Dreamhost Objects;
 * Windows Phone applications;
 * Windows Desktop Applications 
@@ -99,12 +112,13 @@ June 2003 - March 2006 (2 years 10 months) Taubaté Area, Brazil
 
 * Linux software development using Perl, C
 * Windows software development using C++
-* Smart Card and GSM Sim cards personalization • Magnetic cards personalization
+* Smart Card and GSM Sim cards personalization 
+* Magnetic cards personalization
 * Windows Terminal Services Administration
 * AIX software development using C and Perl
 
 ## Education
 
-### Universidade de Taubaté
+### Universidade de Taubate
 
-BS, Scientific Computing · (2001 - 2005)
+BS, Scientific Computing  (2001 - 2005)

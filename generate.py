@@ -11,7 +11,7 @@ links = []
 
 template = '''
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/github.markdown.css">
+<link rel="stylesheet" href="https://fredericorecsky.github.io/github.markdown.css">
 <style>
 	.markdown-body {
 		box-sizing: border-box;
@@ -54,9 +54,21 @@ def render(file, links ):
 def table_of_contents( links ):
     table = ''
     for link in links:
+        if re.search( r'README.md', link ):
+            continue
+        if re.search( r'index.md', link ):
+            continue
+        if re.search( r'resume.md', link ):
+            continue
         name = re.sub( r"\.md", "", link) + ".html"
         link = re.sub( r"\.md", "", link )
-        link = re.sub( r"\_", " ", link )        
+        link = re.sub( r"\_", " ", link )  
+        link = re.sub( r"\.\/", " ", link)      
+
+        link = re.sub( r"\/", ": ", link )
+
+        link = link.title()
+
         print( f'* [{link}]({name})' )
         table += f'* [{link}]({name})\n'
     
