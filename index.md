@@ -14,9 +14,7 @@ You can find more about me on [my personal blog](https://frederico.me) , my [res
 
 The actual format of blogs is not that good to work as a catalog of information. I don't think that of most of cases date are not relevant, but version is.  
 
-### List of notes:
 
-Here is the list of my notes, more or less by topic, some of them are not finished or just a command to rememeber later.
 
 
 

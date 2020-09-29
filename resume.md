@@ -2,25 +2,27 @@
 
 Noord-Holland Province, Netherlands 
 
-email: c @ frederico.me
+r @ frederico.me | github.com/fredericorecsky | linkedin.com/in/recsky/ )
 
-### Software developer specialist on large websites and data processing systems 
+## Objective
 
-## Topics: 
-
-Docker, Python Development, Perl Development, Linux Specialist, Web Specialist, Server Backend Software, Google Cloud, Site Reliability Engineering
+Work as a Software Engineer foccused on building systems with high level of automation, from the initial development to deployment, testing and validation using the best tool/techniques available. I've worked with several technologies and quite used to integrate them.
 
 ### Technologies:
 
-*  Software development using diverse tools and languages especially Python, Go, Perl
-*  Ads Api for Google, Apple
+*  Software development using Go, Python, C and Perl
+*  Web-frameworks: Django, Catalyst, Gin
 *  Google Cloud infrastructure
 *  Design of APIs for webservices
-*  Development, Deployment and Tests pipelines with gitlab and travisCI
-*  Developer experience cycle, scm, builds, CI/CD pipelines
+*  CI/CD pipelines with gitlab and travisCI
 *  Data Extraction, transformation and analysis.
-*  Development of Linux core utils tools and batch automation
 *  MySQL databases and Redis data store.
+*  Development of Linux core utils tools and batch automation
+*  Linux packages, RPM, Anacanda, Ansible, Embedded Linux 
+*  Docker, Docker compose, Multistage builds
+*  Kubernetes, Helm
+*  Ads Api for Google, Apple
+*  Tooling for SEO 
 
 ## Experience
 
@@ -31,6 +33,10 @@ Docker, Python Development, Perl Development, Linux Specialist, Web Specialist, 
 August 2015 - Present,  Amsterdam Area, Netherlands
 
 ##### PPC team ( pay per click /ads team )
+
+Booking is one of the biggest online marketing advertiser and on the ppc team 
+we take care of the communication with the search providers and the data 
+processing of the results and reports.
 
 * Integration and Data Processing from PPC ads
     - Google Ads
