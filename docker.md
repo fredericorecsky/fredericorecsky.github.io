@@ -13,3 +13,17 @@
 
 `docker container prune` 
 
+### Container start-up status
+
+    `docker ps`
+    `docker inspect <container_name>|jq .[].HostConfig.RestartPolicy`
+
+### Update container policy
+
+    `docker update --restart unless-stopped <container_name>`
+
+### Restart docker service on mac os
+
+    `osascript -e 'quit app "Docker"'`
+    `open -a Docker`
+
