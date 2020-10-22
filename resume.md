@@ -2,27 +2,26 @@
 
 Noord-Holland Province, Netherlands 
 
-r @ frederico.me | github.com/fredericorecsky | linkedin.com/in/recsky/ )
+r @ frederico.me | [github.com/fredericorecsky]( github.com/fredericorecsky ) | [linkedin.com/in/recsky/](linkedin.com/in/recsky/)
 
 ## Objective
 
-Work as a Software Engineer foccused on building systems with high level of automation, from the initial development to deployment, testing and validation using the best tool/techniques available. I've worked with several technologies and quite used to integrate them.
+Work as a Software Engineer focused on building systems with a high level of automation, from the initial development to deployment, testing and validation using the best tool/techniques available. I've worked with several technologies and quite used to integrate them.
 
 ### Technologies:
 
 *  Software development using Go, Python, C and Perl
 *  Web-frameworks: Django, Catalyst, Gin
-*  Google Cloud infrastructure
+*  Hashicorp Terraform
+*  Google Cloud Platform
 *  Design of APIs for webservices
 *  CI/CD pipelines with gitlab and travisCI
 *  Data Extraction, transformation and analysis.
 *  MySQL databases and Redis data store.
 *  Development of Linux core utils tools and batch automation
-*  Linux packages, RPM, Anacanda, Ansible, Embedded Linux 
-*  Docker, Docker compose, Multistage builds
-*  Kubernetes, Helm
+*  Linux packages, RPM, Anaconda, Ansible, Embedded Linux 
+*  Docker, Docker Compose, multistage builds
 *  Ads Api for Google, Apple
-*  Tooling for SEO 
 
 ## Experience
 
@@ -30,21 +29,19 @@ Work as a Software Engineer foccused on building systems with high level of auto
 
 #### Developer
 
-August 2015 - Present,  Amsterdam Area, Netherlands
+August 2015 - Present, Amsterdam Area, Netherlands
 
-##### PPC team ( pay per click /ads team )
+##### PPC team
 
-Booking is one of the biggest online marketing advertiser and on the ppc team 
-we take care of the communication with the search providers and the data 
-processing of the results and reports.
+Booking is one of the biggest online marketing advertisers and on the PPC team we take care of the communication with the search providers and the processing of the results and data reports.
 
-* Integration and Data Processing from PPC ads
+* Integration and Data Processing for ads:
     - Google Ads
     - Apple Ads
-* Integration of on premise system with google cloud infrastructure
+* Integration of on-premise system with google cloud platform
 * Infrastructure of the software and tools used with ppc/ads bidding systems
 * Tools for managing marketing campaigns on google using Google Ads API
-* Migrated the update process of ads to a distributed system using Redis and Perl
+* Migrated and updated the system to process of ads using a distributed system
 
 ##### Core Infrastructure Team
 
@@ -55,8 +52,7 @@ processing of the results and reports.
 ##### SEO Team 
 
 * Internal SEO tools and infrastructure designed on the scale required by booking.com
-* Internal crawler development, improved the internal crawler used to get information about the booking.com site. 
-* Managed to run it and aggregate the SEO metrics for the entire set of links of the website instead just a sample of it.
+* Internal crawler development: improved the internal crawler used to get SEO information about the booking.com site. Enabled it to have SEO metrics for the entire set of links of the website instead just a sample of it.
 
 ### IDEMIA
 
@@ -64,7 +60,7 @@ processing of the results and reports.
 
 ##### Product Engineering Team
 
-June 2012 - August 2015 (3 years 3 months) Taubaté Area, Brazil
+June 2012 - August 2015 (3 years 3 months), Brazil
 
 * Development of an application for tracking and audit of production items. 
 * MySQL Database cluster management and application development
@@ -114,7 +110,7 @@ March 2006 - September 2009 (3 years 7 months) Hortolandia
 
 #### Developer
 
-June 2003 - March 2006 (2 years 10 months) Taubaté Area, Brazil
+June 2003 - March 2006 (2 years 10 months) Taubaté Area, Brazil
 
 * Linux software development using Perl, C
 * Windows software development using C++
@@ -127,4 +123,4 @@ June 2003 - March 2006 (2 years 10 months) Taubaté Area, Brazil
 
 ### Universidade de Taubate
 
-BS, Scientific Computing  (2001 - 2005)
+BS, Scientific Computing (2001 - 2005)
