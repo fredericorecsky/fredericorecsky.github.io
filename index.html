@@ -39,7 +39,7 @@
 			function render_md(md_text)
 			{
 				document.getElementById('content').innerHTML =
-					marked(md_text);				
+					marked.parse(md_text);				
 			}
 			function render_list(list_of_links)
 			{
