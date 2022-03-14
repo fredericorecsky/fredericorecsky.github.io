@@ -1,5 +1,8 @@
 name: CMS Structure Generator
-on: [push]
+on:
+  push:
+    tags:
+      - publish.*
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
