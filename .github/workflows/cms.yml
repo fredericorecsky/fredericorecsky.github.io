@@ -2,7 +2,7 @@ name: CMS Structure Generator
 on:
   push:
     tags:
-      - publish.*
+      - 'publish.*'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
