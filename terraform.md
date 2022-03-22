@@ -10,3 +10,9 @@
 
 ```terraform init -reconfigure```
 
+### Connecting to github automatically 
+
+[Reference](https://www.terraform.io/language/modules/sources#github)
+
+Need to get authentication token on github, must use https for token. 
+
