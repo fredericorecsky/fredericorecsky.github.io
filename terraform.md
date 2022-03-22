@@ -14,5 +14,7 @@
 
 [Reference](https://www.terraform.io/language/modules/sources#github)
 
+[Setting up git](https://wahlnetwork.com/2020/08/11/using-private-git-repositories-as-terraform-modules/)
+
 Need to get authentication token on github, must use https for token. 
 
