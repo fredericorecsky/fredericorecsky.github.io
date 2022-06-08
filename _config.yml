@@ -32,7 +32,7 @@ twitter_username: DataEng70661073
 github_username:  fredericorecsky
 
 # Build settings
-theme: jekyll-theme-midnight
+theme: minima
 plugins:
   - jekyll-feed
 
