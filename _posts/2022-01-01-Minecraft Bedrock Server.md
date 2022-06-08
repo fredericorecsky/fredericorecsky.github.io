@@ -1,3 +1,6 @@
+---
+title: Installing a local minecraft bedrock server
+---
 # Installing a local minecraft bedrock server
 
 I have a xbox one and two players can play it at the sametime but I would like to join the party with my kid and wife. 

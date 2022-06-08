@@ -1,3 +1,6 @@
+---
+title: Learning Python as old developer
+---
 # Old dogs can learn new tricks
 
 Learning python experience from a old Perl and C developer. 

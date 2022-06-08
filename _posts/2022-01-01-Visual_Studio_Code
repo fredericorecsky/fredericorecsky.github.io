@@ -1,3 +1,7 @@
+---
+title: Visual Studio Code Python Notes
+---
+
 # Using visual studio code debugger with Python
 
 By default, it will not step into system or pip installed libraries. On your launch.json just add:
