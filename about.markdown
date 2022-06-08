@@ -1,3 +1,7 @@
+---
+layout: page
+title: About
+---
 # Frederico random notes on technology
 
 I am using this space to save my notes about tech stuff, mostly it is my notebook about software. 
@@ -9,11 +13,3 @@ Above there is a list of notes, usually the name is self describing. You can alw
 ### About me:
 
 You can find more about me on [my personal blog](https://frederico.me) , my [resume](resume.html)
-
-
-
-
-
-
-
-

@@ -1,3 +1,8 @@
+---
+layout: page
+title: Resume
+---
+
 # Frederico Recsky 
 
 Noord-Holland Province, Netherlands 
