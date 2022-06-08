@@ -1,0 +1,65 @@
+# Jekyll
+
+Content management is hard, either you use a old style CMS or use a web service ( medium, wordpress, blogger ) or you do it yourself. 
+
+I tried for sometime almost all the options, and ended up with wordpress as generic tool and my own in-house version that process markdown files. 
+
+I started to write again and using github pages seems simple and is close to what I think that is a good way to write content. But still some tooling required to manage links and etc. So this time I am giving a chance to Jekyll. 
+
+# Hands on
+
+I am following this [github](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) tutorial to use Jekyll. Also it seems to work with github actions so I can edit on github web page, or on github mobile app or go jurassic and edit on my own desktop. 
+
+I will try to do not install anything local but let's see how it goes.
+
+## Bootstrap
+
+Created the _config.yml. Edited the source to be '.'. Ignored the front matter, themes and plugins for now.
+
+Now .. it suggest to build locally. It seems that I have ruby installed locally and it is on 2.6.x. Good enough. 
+
+```
+gem install jekyll
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory.
+
+# meh
+```
+
+So, did not worked with system ruby, my lazyness did not pay off this time. So let's do it the "dev" way. Following the guide on [jekyll site](https://jekyllrb.com/docs/installation/macos/).
+
+I try to keep as minimal as possible the software installed on the host and I tought to use a docker but.. ok, let's do it the old way.
+
+```
+brew install chruby ruby-install
+#(...)
+ruby-install ruby
+#(... it took a while, it compiled ruby.. feels like 1998 again)
+# Added this to my zsh
+echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+echo "chruby ruby-3.1.x" >> ~/.zshrc
+# TIL that ruby is on 3.1.x version
+gem install jekyll
+```
+
+Somehow I got the *impression* that installing stuff using pip on python is wy faster than using gem. Just a impression. 
+
+Well it seems that worked. So need to bootstrap the site.
+
+```
+jekyll new --skip-bundle .
+# fails
+```
+
+It didn't run on the directory that has the files, so I created on directory empty and run it, looks good. After I move it to the root.
+
+Now I am following this [guide](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll), mostly went well. 
+
+Needed to update the versions accordly with this [link](https://pages.github.com/versions/), also to run locally was necessary to add _webrick_ to the project Gemfile. So run it locally and of course it is empty. 
+
+So I wanted to run it from the root, I moved the contents of the jekyll directory that I created to root and run the server, and it server my old index.html as main page.  Moved the file to another name and voi-la, somehow it got all my markdown notes as "pages". Now I need to figure out how to move them to posts. 
+
+So for now I ignore the rest of the setting up page and went to [adding content](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll) to your github pages. Let's move the old markdown notes to posts. If that works well I will apreciate it a lot. 
+
+The markdown used by jekyll seems to be anotated, any markdown on the root is a page. The posts live on _posts directory, so now I will just move the posts there and put some metadata on them ( if required )
