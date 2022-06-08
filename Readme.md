@@ -10,11 +10,6 @@ Above there is a list of notes, usually the name is self describing. You can alw
 
 You can find more about me on [my personal blog](https://frederico.me) , my [resume](resume.html)
 
-### Why notes and not a blog
-
-The actual format of blogs is not that good to work as a catalog of information. I don't think that of most of cases date are not relevant, but version is.  
-
-
 
 
 

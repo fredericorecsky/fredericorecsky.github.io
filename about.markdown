@@ -1,18 +1,15 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
+# Frederico random notes on technology
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am using this space to save my notes about tech stuff, mostly it is my notebook about software. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+From time to time I tried to upkeep a blog in the end I fallback to small text files with notes or just commands and now I think that it is more useful than blog posts or videos. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Above there is a list of notes, usually the name is self describing. You can always [git clone this](https://github.com/fredericorecsky/fredericorecsky.github.io.git) and git grep the contents.
 
+### About me:
 
-[jekyll-organization]: https://github.com/jekyll
+You can find more about me on [my personal blog](https://frederico.me) , my [resume](resume.html)
