@@ -37,3 +37,12 @@ What I expect that Terraform will do for me:
 
 Ideally after it is done I expect to forgot about it, except when I need it again and I hope it will be totally reusable.
 
+## Start
+
+So I already have a set Google Cloud account, so now I need to follow up the instructions on the 
+official [Terraform Foundantion Project](https://github.com/terraform-google-modules/terraform-example-foundation/blob/master/0-bootstrap/README.md)
+
+
+
+
+
