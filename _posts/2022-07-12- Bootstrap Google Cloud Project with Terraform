@@ -1,0 +1,39 @@
+---
+title: Bootstraping a new Google Cloud Project using Terraform
+published: false
+---
+
+# A new day a new project but not a whole new infrastructure
+
+Everyonce in a while every developer starts a side project. It can be to get some extra money or to learn a new technology, it does not matter. 
+What really matters is this question: Would I need to recreate all the infrastructure this time again?
+
+  -- Well, likely.
+  
+If you are a seasoned developer, you may have a set of tools to bootstrap your project on whatever infra you have, so here I am doing a step by step
+on how I bootstrap a project on my infra of choice, Google Cloud on this case.  Also keep in mind that this text is about bootstrap and not what should 
+be your tool or favorite cloud. The ideia should be the same if you are native k8s or running on AWS, whatever. 
+
+# The Project
+
+Well, this time the project is a simple website so a friend can write some texts and publish.  The goal is write less code as possible and work as well as it can.
+Also we are foccused on the content and the user just want to edit some files to publish a text. For this case I will do a poor's man github pages 
+using the resources I have and of course I could use github but my friend wants to publish whatever content as he wants, like 18+ for example. 
+
+To mimic the Jekyll + github actions we are going to use:
+
+* Google Cloud Project having: 
+* Google Cloud Storage
+* Google Cloud Build
+* A github repository
+* Jekyll 
+
+This is the first time I am doing it so also I want to have a infra setup that I can reuse, so we add Terraform to be our infra control.
+What I expect that Terraform will do for me:
+
+* Create a Google Cloud Project
+* Create a bucket to serve the site
+* Create a Cloud Build Trigger so when the user edits the texts on github, it publishes it. 
+
+Ideally after it is done I expect to forgot about it, except when I need it again and I hope it will be totally reusable.
+
