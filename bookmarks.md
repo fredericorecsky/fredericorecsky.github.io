@@ -13,9 +13,8 @@ My solution is always chaning, but I ended up splitting into three groups, perso
 * For "personal" work and studies, I use the pinboard, that I have account for years and I kept the applet it on my bookmark bar because normally I study and work on my desktop. 
 * Work as working for an employer, I use the solution they gave or suggest. 
 
-## My pinboard last links
+## Readings
 
-They provide a nice JS snippet to show the links, so I put it here also for my own use. Pinboard allows me to save them as public or private, so my public links are here:
+Every week or so I publish the articles and books that I am reading with comments and annotations. My flux goes to bookmark a link on pinboard when I want to dig on them, and later took a time to read it and write down whatever comes to mind as study.
 
-<script language="javascript" src="https://pinboard.in//widgets/v1/linkroll/?user=recsky&count=50"></script>
 
